@@ -23,15 +23,11 @@
             <a onclick="openForm()" ondblclick="closeForm()">Contact</a>
         </div>
 
-        <!--Breaks inserted to add space between navbar and the first heading-->
-        <br>
-        <br>
-
         <!--Background video-->
         <div id="Home">
             <video autoplay muted loop id="Red_Maple">
                 <source src="images/video/redmaple.mp4" type="video/mp4">
-                <!--Display message if video fails to run-->
+                <!-- Display message if video fails to run -->
                 Your browser does not support HTML5 video.
             </video>
         </div>
@@ -103,13 +99,13 @@
             </div>
         </div>
 
-        <!--About section-->
+        <!-- About section -->
         <div class="Row" id="About">
-            <!--Left column-->
+            <!-- Left column -->
             <div class="Column_2">
                 <img src="images/chicago.jpg" alt="Sunset between buildings above traffic in Chicago">
             </div>
-            <!--Right column-->
+            <!-- Right column -->
             <div class="Column_1">
                 <h1>About</h1>
                 <p>
@@ -133,8 +129,7 @@
             <!--Left column-->
             <div class="Column_1">
                 <h1>GitHub</h1>
-                <p>
-                    You can view my coding projects on my GitHub profile here:
+                <p>You can view my coding projects on my GitHub profile here:
                     <br>
                     <p class="center"><a href="https://github.com/CChamblin" target="_blank">Christopher Chamblin Github</a></p>
                 </p>
@@ -149,9 +144,7 @@
         <div id="Contact">
             <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
             <div class="form-popup" id="myForm">
-                <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container"> <!-- Here we are
-        using a free online service from https://formspree.io/ to send our contact to an email address of our choosing - note: it will not run
-        unless live on the internet, you have to push it to your online website first -->
+                <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container">
                     <h1>Contact</h1>
                     <label for="name"><b>Name</b></label>
                         <input type="text" placeholder="Type your name here" name="name" required>
