@@ -9,7 +9,7 @@ html {
 body {
     margin: 0%;  /* This ensures our site displays all the way to the edge of the browser screen */
     opacity: 1; /* This and transition affect the page loading fade in effect */
-    transition: 3s; opacity; /* This causes a 3 second fade in */
+    transition: 3s opacity; /* This causes a 3 second fade in */
     letter-spacing: .2vw; /* vw is a relative measurment, 1vw is equal to 1% of the viewport width */
     font-family: Avant Garde, Helvetica;
     font-size: 1.5vw;
@@ -226,7 +226,7 @@ footer {
     height: auto; /* The height of the container is automatically adjusted based on the content it is displaying */
     padding-top: 4%; /* Adds a small padding to the top of the slideshow container */
     position: relative; /* This sets the container relative to its normal positioning */
-    margin: auto; /* This will horizontally center the container on the page
+    margin: auto; /* This will horizontally center the container on the page */
 }
 
 /* Images contained within the slideshow */
@@ -234,7 +234,7 @@ footer {
     vertical-align: middle; /* This centers the images vertically within the slideshow container */
     height: auto; /* The height of the images is automatically adjusted based on the content, ie if your images are different sizes, they will display as different sizes */
     box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, .75); /* Adds a shadow around the slideshow images */
-    width: 100% /* The width of the images is automatically adjusted based on the content */
+    width: 100%; /* The width of the images is automatically adjusted based on the content */
 }
 
 /* Next and previous buttons */
